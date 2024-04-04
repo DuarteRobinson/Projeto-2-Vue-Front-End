@@ -52,3 +52,5 @@ const FrameComponent = () => {
                 />
             </div>
         </header>
+    );
+};

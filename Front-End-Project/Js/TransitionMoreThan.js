@@ -29,3 +29,5 @@ const TransitionMoreThan = () => {
         </div>
       </div>
     </div>
+  );
+};

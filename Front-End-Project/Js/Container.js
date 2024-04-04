@@ -29,3 +29,6 @@ const Container = () => {
         <div className={styles.frameChild} />
       </div>
       <div className={styles.maleUserBox}></div>
+      </header>
+  );
+};

@@ -56,3 +56,5 @@ const Games = () => {
                 </div>
             </div>
         </div>
+    );
+};
