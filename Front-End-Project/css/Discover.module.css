@@ -1,0 +1,207 @@
+.discover1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.storeLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xs);
+}
+
+.frameChild {
+    align-self: stretch;
+    height: 1.1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.epicGamesIcon {
+    height: 41px;
+    width: 41px;
+    object-fit: cover;
+}
+
+.epicGamesIcon,
+.epicGamesStore {
+    position: relative;
+}
+
+.epicGamesParent,
+.epicGamesStoreWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.epicGamesStoreWrapper {
+    flex-direction: column;
+    padding: var(--padding-3xs) 0 0;
+}
+
+.epicGamesParent {
+    flex-direction: row;
+    gap: var(--gap-4xs);
+}
+
+.epicGamesIcon1 {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.fab {
+    position: relative;
+    display: inline-block;
+    min-width: 36px;
+}
+
+.fabWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+}
+
+.epicGamesGroup {
+    height: 41px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-2xs);
+}
+
+.epicGamesGroup,
+.frameParent,
+.frameWrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.frameParent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-10xl);
+}
+
+.frameWrapper {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-7xs);
+}
+
+.lineParent,
+.storeLabelParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lineParent {
+    align-items: flex-end;
+    gap: var(--gap-4xs);
+    margin-top: -10.1px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-league-spartan);
+}
+
+.storeLabelParent {
+    align-items: flex-start;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-koulen);
+}
+
+.sketchfabIcon {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.sketchfab {
+    position: relative;
+    display: inline-block;
+    min-width: 98px;
+}
+
+.discoverInner,
+.sketchfabParent,
+.sketchfabWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sketchfabWrapper {
+    flex-direction: column;
+    padding: var(--padding-3xs) 0 0;
+}
+
+.discoverInner,
+.sketchfabParent {
+    flex-direction: row;
+}
+
+.sketchfabParent {
+    gap: var(--gap-2xs);
+}
+
+.discoverInner {
+    padding: 0 var(--padding-10xl);
+}
+
+.artstationIcon {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.artstation {
+    position: relative;
+    display: inline-block;
+    min-width: 103px;
+}
+
+.artstationWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+}
+
+.artstationParent {
+    flex-direction: row;
+    gap: var(--gap-2xs);
+}
+
+.artstationParent,
+.discover,
+.discoverChild {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.discoverChild {
+    flex-direction: row;
+    padding: 0 var(--padding-10xl);
+}
+
+.discover {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-10xl);
+    z-index: 3;
+    text-align: left;

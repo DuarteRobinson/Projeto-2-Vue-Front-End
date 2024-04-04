@@ -1,0 +1,200 @@
+.navbar {
+    height: 68px;
+    width: 1383px;
+    position: relative;
+    background-color: var(--color-darkslategray);
+    display: none;
+    max-width: 100%;
+}
+
+.moreThanvariant2Icon {
+    width: 29px;
+    height: 38px;
+    position: relative;
+    object-fit: contain;
+    z-index: 3;
+}
+
+.moreThanvariant2Wrapper {
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-5xl) var(--padding-8xs) 0;
+    box-sizing: border-box;
+}
+
+.frameChild {
+    width: 1px;
+    height: 47px;
+    position: relative;
+    border-right: 1px solid var(--color-darkgray);
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.moreThanIndicatorInner {
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xs) 0 0;
+    box-sizing: border-box;
+}
+
+.store,
+.suporte {
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+}
+
+.store {
+    margin: 0;
+    font-size: var(--font-size-21xl);
+    font-weight: 400;
+    font-family: var(--font-koulen);
+    color: var(--color-white);
+    min-width: 88px;
+    white-space: nowrap;
+}
+
+.suporte {
+    min-width: 78px;
+}
+
+.suporteWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xl) 0 0;
+}
+
+.help {
+    position: relative;
+    display: inline-block;
+    min-width: 45px;
+    z-index: 3;
+}
+
+.helpWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xl) 0 0;
+}
+
+.aboutUs {
+    position: relative;
+    display: inline-block;
+    min-width: 88px;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.aboutUsWrapper,
+.storeParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) 0 0;
+}
+
+.storeParent {
+    margin-bottom: -13px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--padding-593xl) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    gap: var(--gap-xl);
+}
+
+.maleUserIcon {
+    align-self: stretch;
+    height: 46px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.maleUserWrapper {
+    height: 51px;
+    width: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-8xs);
+    box-sizing: border-box;
+}
+
+.unrealEngineBoxChild {
+    width: 1px;
+    height: 46px;
+    position: relative;
+    object-fit: contain;
+    z-index: 3;
+}
+
+.unrealEngineBox {
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+}
+
+.shoppingCartIcon {
+    width: 35px;
+    height: 48px;
+    position: relative;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.moreThanIndicator,
+.shoppingCartWrapper {
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+}
+
+.moreThanIndicator {
+    width: 1383px;
+    height: 68px;
+    background-color: var(--color-darkslategray);
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 var(--padding-23xl) var(--padding-4xs) var(--padding-62xl);
+    gap: var(--gap-3xs);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 107%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-darkgray);
+    font-family: var(--font-league-spartan);
+}
+
+@media screen and (max-width: 1200px) {
+    .moreThanIndicator {
+        padding-left: var(--padding-21xl);

@@ -1,0 +1,108 @@
+.logoBgIcon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.bg {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: var(--color-gray);
+    display: none;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.logoEpc1 {
+    width: 114px;
+    height: 140px;
+    position: absolute;
+    margin: 0 !important;
+    top: 21px;
+    left: 14px;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.frameChild {
+    height: 796px;
+    width: 778px;
+    position: relative;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-darkslategray);
+    display: none;
+    max-width: 100%;
+}
+
+.frameParent,
+.gamesWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.gamesWrapper {
+    width: 248px;
+    flex-direction: row;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.frameParent {
+    width: 260px;
+    flex-direction: column;
+    gap: 58px;
+    min-width: 260px;
+}
+
+.rectangleParent {
+    flex: 1;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-darkslategray);
+    flex-direction: row;
+    padding: 3px 36px 51px var(--padding-28xl);
+    gap: 78px;
+    max-width: 100%;
+    z-index: 2;
+}
+
+.rectangleParent,
+.transitionMoreThan,
+.transitionMoreThanInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.transitionMoreThanInner {
+    width: 896px;
+    flex-direction: row;
+    padding: 0 59px;
+    max-width: 100%;
+}
+
+.transitionMoreThan {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-black);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-28xl) 71px 67px;
+    gap: 46px;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+    .transitionMoreThan {
+        padding-left: var(--padding-16xl);

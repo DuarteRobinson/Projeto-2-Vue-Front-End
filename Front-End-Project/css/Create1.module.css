@@ -1,0 +1,438 @@
+.create1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 105px;
+    z-index: 1;
+}
+
+.createWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xs);
+}
+
+.frameChild {
+    align-self: stretch;
+    height: 1.4px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    debug_commit: f6aba90;
+    z-index: 2;
+}
+
+.unrealEngineIcon {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.unrealEngine {
+    position: relative;
+}
+
+.unrealEngineWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+}
+
+.unrealEngineParent {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+}
+
+.frameParent,
+.frameWrapper,
+.lineParent,
+.unrealEngineParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frameWrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-12xl);
+    flex-shrink: 0;
+}
+
+.frameParent,
+.lineParent {
+    flex-direction: column;
+}
+
+.lineParent {
+    align-self: stretch;
+    gap: var(--gap-4xs);
+    margin-top: -10.4px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-league-spartan);
+}
+
+.frameParent {
+    width: 340px;
+    max-width: 100%;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-koulen);
+}
+
+.fortniteIcon {
+    height: 41px;
+    width: 41px;
+    object-fit: cover;
+}
+
+.createInFortnite,
+.fortniteIcon {
+    position: relative;
+}
+
+.createInFortniteWrapper,
+.createInner,
+.fortniteParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.createInFortniteWrapper {
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.createInner,
+.fortniteParent {
+    flex-direction: row;
+}
+
+.fortniteParent {
+    gap: var(--gap-3xs);
+}
+
+.createInner {
+    padding: 0 var(--padding-12xl);
+}
+
+.epicGamesIcon {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.metahuman {
+    position: relative;
+    display: inline-block;
+    min-width: 121px;
+}
+
+.createChild,
+.epicGamesParent,
+.metahumanWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.metahumanWrapper {
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.createChild,
+.epicGamesParent {
+    flex-direction: row;
+}
+
+.epicGamesParent {
+    gap: var(--gap-3xs);
+}
+
+.createChild {
+    padding: 0 var(--padding-12xl);
+}
+
+.epicGamesIcon1 {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.twinmotion {
+    position: relative;
+    display: inline-block;
+    min-width: 112px;
+}
+
+.epicGamesGroup,
+.frameDiv,
+.twinmotionWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.twinmotionWrapper {
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.epicGamesGroup,
+.frameDiv {
+    flex-direction: row;
+}
+
+.epicGamesGroup {
+    gap: var(--gap-3xs);
+}
+
+.frameDiv {
+    padding: 0 var(--padding-12xl);
+}
+
+.realitycapture {
+    position: absolute;
+    margin: 0 !important;
+    bottom: 289px;
+    left: 82px;
+}
+
+.epicGamesIcon2 {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.realityscan {
+    position: relative;
+    display: inline-block;
+    min-width: 115px;
+}
+
+.createInner1,
+.epicGamesContainer,
+.realityscanWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.realityscanWrapper {
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.createInner1,
+.epicGamesContainer {
+    flex-direction: row;
+}
+
+.epicGamesContainer {
+    gap: var(--gap-3xs);
+}
+
+.createInner1 {
+    padding: 0 var(--padding-12xl);
+}
+
+.epicGamesIcon3 {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.realitycapture1 {
+    position: relative;
+    z-index: 1;
+}
+
+.epicGamesParent1,
+.realitycaptureWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.realitycaptureWrapper {
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.epicGamesParent1 {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+}
+
+.epicGamesIcon4 {
+    height: 41px;
+    width: 41px;
+    object-fit: cover;
+}
+
+.epicGamesIcon4,
+.epicGamesServices {
+    position: relative;
+}
+
+.epicGamesServicesWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    min-width: 133px;
+}
+
+.epicGamesParent2 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+}
+
+.createInner2,
+.epicGamesParent2,
+.frameGroup {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frameGroup {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-lgi);
+}
+
+.createInner2 {
+    width: 317px;
+    flex-direction: row;
+    padding: 0 var(--padding-12xl);
+    box-sizing: border-box;
+}
+
+.epicGamesIcon5 {
+    height: 41px;
+    width: 41px;
+    object-fit: cover;
+}
+
+.epicGamesIcon5,
+.publishInEpic {
+    position: relative;
+}
+
+.publishInEpicGamesStoreWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    min-width: 179px;
+}
+
+.createInner3,
+.epicGamesParent3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.epicGamesParent3 {
+    flex: 1;
+    gap: var(--gap-3xs);
+}
+
+.createInner3 {
+    align-self: stretch;
+    padding: 0 0 0 var(--padding-12xl);
+    box-sizing: border-box;
+}
+
+.servicesIcon {
+    height: 41px;
+    width: 41px;
+    object-fit: cover;
+}
+
+.kidsWebServices,
+.servicesIcon {
+    position: relative;
+}
+
+.createInner4,
+.kidsWebServicesWrapper,
+.servicesParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.kidsWebServicesWrapper {
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.createInner4,
+.servicesParent {
+    flex-direction: row;
+}
+
+.servicesParent {
+    gap: var(--gap-3xs);
+}
+
+.createInner4 {
+    padding: 0 var(--padding-12xl) var(--padding-4xs);
+}
+
+.epicGamesIcon6 {
+    height: 41px;
+    width: 41px;
+    object-fit: cover;
+}
+
+.developerCommunity,
+.epicGamesIcon6 {
+    position: relative;
+}
+
+.developerCommunityWrapper {
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.create,
+.createInner5,
+.developerCommunityWrapper,
+.epicGamesParent4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.epicGamesParent4 {
+    flex-direction: row;
+    gap: var(--gap-3xs);

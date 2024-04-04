@@ -1,0 +1,171 @@
+.games1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 91px;
+}
+
+.gamesWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xs);
+}
+
+.createAreaBox {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.fortniteIcon {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.fortnite {
+    position: relative;
+    display: inline-block;
+    min-width: 76px;
+}
+
+.fortniteWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+}
+
+.fortniteParent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-xs);
+}
+
+.createAreaBoxParent,
+.fortniteParent,
+.frameParent,
+.realityEngineBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.realityEngineBox {
+    flex: 1;
+    flex-direction: row;
+    padding: 0 var(--padding-6xl);
+}
+
+.createAreaBoxParent,
+.frameParent {
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.createAreaBoxParent {
+    height: 51px;
+    gap: var(--gap-4xs);
+    margin-top: -10px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-league-spartan);
+}
+
+.frameParent {
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-koulen);
+}
+
+.rocketLeagueIcon {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.rocketLeague {
+    position: relative;
+}
+
+.gamesInner,
+.rocketLeagueParent,
+.rocketLeagueWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.rocketLeagueWrapper {
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.gamesInner,
+.rocketLeagueParent {
+    flex-direction: row;
+}
+
+.rocketLeagueParent {
+    gap: var(--gap-2xs);
+}
+
+.gamesInner {
+    padding: 0 var(--padding-lg) 0 var(--padding-8xl);
+}
+
+.fallGuysIcon {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    object-fit: cover;
+}
+
+.fallGuys {
+    position: relative;
+    display: inline-block;
+    min-width: 90px;
+}
+
+.fallGuysWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xs) 0 0;
+}
+
+.fallGuysParent {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+}
+
+.fallGuysParent,
+.games,
+.gamesChild {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.gamesChild {
+    flex-direction: row;
+    padding: 0 var(--padding-8xl);
+}
+
+.games {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-10xl);
+    z-index: 3;
+    text-align: left;
